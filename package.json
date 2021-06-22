@@ -1,0 +1,26 @@
+{
+  "name": "ragnarock",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "jest src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyriffic/ragnarock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andyriffic/ragnarock/issues"
+  },
+  "homepage": "https://github.com/andyriffic/ragnarock#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.4"
+  }
+}
