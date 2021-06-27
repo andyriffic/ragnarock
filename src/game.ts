@@ -44,6 +44,11 @@ export function createPlayerGameMove(
   };
 }
 
+export interface PlayGameAction {
+  player1Move: PlayerGameMove;
+  player2Move: PlayerGameMove;
+}
+
 export function playGame(
   player1: PlayerGameMove,
   player2: PlayerGameMove
